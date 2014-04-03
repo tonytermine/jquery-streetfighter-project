@@ -80,6 +80,18 @@ img {
   background-repeat: no-repeat;
 }
 
+.dart-board {
+	position: relative;
+}
+
+.dart {
+	width: 200px;
+	height: 200px;
+	right: 20px;
+	top: 90px;
+
+}
+
 .instructions ol {
 	position: relative;
 	bottom: 180px;
