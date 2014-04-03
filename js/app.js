@@ -30,8 +30,8 @@ $(document).ready(function() {
   })
   .keyup(function(e) {
     if (e.keyCode == 88) {
-      $('#cool')[0].pause();
-      $('#cool')[0].load();
+      $('.cool')[0].pause();
+      $('.cool')[0].load();
       $('.ryu-action').hide();
       $('.ryu-still').show();
     }
@@ -39,12 +39,12 @@ $(document).ready(function() {
 });
 
 function playHadouken () {
-  $('#hadouken-sound')[0].volume = 0.5;
-  $('#hadouken-sound')[0].load();
-  $('#hadouken-sound')[0].play();
+  $('.hadouken-sound')[0].volume = 0.5;
+  $('.hadouken-sound')[0].load();
+  $('.hadouken-sound')[0].play();
 }
 
 function playCool () {
-	$('#cool')[0].volume = 0.5;
-  $('#cool')[0].play();
+	$('.cool')[0].volume = 0.5;
+  $('.cool')[0].play();
 }
