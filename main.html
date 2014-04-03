@@ -1,29 +1,43 @@
 <!doctype html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="css/main.css">
-	<script src="http://code.jquery.com/jquery.min.js"></script>
-	<script src="js/app.js"></script>
-</head>
-<body>
-  <div class="main">
-  	<div class="ryu">
-  		<div class="hadouken"></div>
-  		<div class="ryu-still"></div>
-  		<div class="ryu-ready"></div>
-  		<div class="ryu-throwing"></div>
-  		<div class="ryu-cool"></div>
-  	</div>
-  	<h1>Ryu</h1>
-  	<h2>Ready Ryu by hovering your mouse over him.</h2>
-  	<h3>Unleash a powerful Hadoukan blast by clicking your mouse when Ryu is ready.</h2>
-  	<p>Click and hold "x" your keyboard for a Ryu selfie pose. </p>
-	</div>
-	<audio id="hadouken-sound" src="sound/hadouken.mp3">
-	<audio src="sound/cool.mp3" id="cool"></audio>
-
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Street Fighter | jQuery Project</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- Ryu Favicon -->
+		<link href="favicon.ico" rel="icon" type="image/x-icon">
+		<!-- Google Font -->
+		<link href='http://fonts.googleapis.com/css?family=Shojumaru|Hammersmith+One' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/main.css">
+		<script src="http://code.jquery.com/jquery.min.js"></script>
+		<script src="js/app.js"></script>
+	</head>
+	<body>
+  	<div class="main">
+  	<h1>
+  		R
+  		Y
+  		U
+  	</h1>
+  		<div class="main-logo">
+	  	<img src="images/logo.png" alt="Street-Fighter">
+	  	</div>
+	  	<div class="ryu">
+	  		<div class="ryu-still ryu-action"></div>
+	  		<div class="ryu-ready ryu-action"></div>
+	  		<div class="ryu-throwing ryu-action"></div>
+	  		<div class="ryu-cool ryu-action"></div>
+	  	</div>
+	  	<div class="hadouken"></div>
+  		<div class="instructions">
+  			<ol>
+  				<li>Get Ryu ready by hovering your mouse over him.</li><br>
+		  	  <li>Unleash a powerful Hadoukan blast by clicking your mouse while Ryu is ready.</li><br>
+  				<li>Click and hold "x" on your keyboard and Ryu will strike a pose.</li>
+  			</ol>
+			</div><!-- end instructions -->
+		</div><!-- end main -->
+		<audio src="sound/hadouken.mp3" id="hadouken-sound">
+		<audio src="sound/cool.mp3" id="cool"></audio>
+	</body>
 </html>
